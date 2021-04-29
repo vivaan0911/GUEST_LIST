@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="functions.js"></script>
+    </head>
+    <body>
+        <h1 id="heading">Guest List</h1>
+        <hr>
+       <span><input type="text" placeholder="Person Name" id="person_name_input"></span>
+        <button id="submit_button" onclick="submit_show()">Submit</button>
+        <hr>
+        <div id="display_list_with_commas"></div>
+        <hr>
+        <button id="show_button" onclick="show_without_comma()">Show</button>
+        <br>
+        <div id="display_list_without_commas"></div>
+        <hr>
+        <button id="sort_button" onclick="sorting()">Sort List</button>
+        <div id="display_sorted_list"></div>
+        <hr>
+        <span><input type="text" placeholder="Search Name" id="search_name_input"></span>
+        <button id="search_button" onclick="search()">Search Name</button>
+        <br>
+        <div id="display_time_search"></div>
+        <hr>
+    </body>
+</html>

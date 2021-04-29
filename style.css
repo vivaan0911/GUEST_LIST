@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: coral;
+}
+#heading {
+    background-color: darkblue;
+    color: darkgoldenrod;
+    font-family: Magneta;
+    font-size: 35px;
+}
+#person_name_input {
+    background-color: darkorchid;
+    color: greenyellow;
+    font-size: 20px;
+    font-family: Kristen ITC;
+}
+#search_name_input {
+    background-color: darkorchid;
+    color: greenyellow;
+    font-size: 20px;
+    font-family: Kristen ITC;  
+}
+#submit_button {
+    background-color: indianred;
+    color: indigo;
+    font-size: 25px;
+    font-family: monospace;
+}
+#show_button {
+    background-color: indianred;
+    color: indigo;
+    font-size: 25px;
+    font-family: monospace;  
+}
+#search_button {
+    background-color: indianred;
+    color: indigo;
+    font-size: 25px;
+    font-family: monospace;
+}
+#sort_button {
+    background-color: indianred;
+    color: indigo;
+    font-size: 25px;
+    font-family: monospace;   
+}
+#display_list_with_commas {
+    background-color: lightblue;
+}
+#display_list_without_commas {
+    background-color: lightcoral;
+}
+#display_time_search {
+    background-color: lightgreen;
+}
+#display_sorted_list {
+    background-color: lightsalmon;
+}
